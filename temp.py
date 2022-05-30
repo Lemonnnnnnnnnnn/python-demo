@@ -1,1 +1,3 @@
-print(1 | 2)
+a = '123'
+
+print(int(a))
