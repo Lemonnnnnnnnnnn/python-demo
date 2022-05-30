@@ -29,7 +29,6 @@ def m_filter():
         return lambda x : x % n != 0         
     
     def primes():
-        yield 2
         it = list_queue() # 构造生成器
         while True:
             num = next(it)
